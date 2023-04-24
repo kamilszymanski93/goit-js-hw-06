@@ -1,0 +1,13 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+}
+.gallery img {
+  width: 50%;
+}
+.gallery img:hover {
+  transform: scaleX(110%);
+  transition: 3000ms;
+}
